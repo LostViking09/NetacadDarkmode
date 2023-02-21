@@ -5,7 +5,7 @@ A custom, responsive dark style for NetAcad Contenthub pages to avoid eyestrain.
 
 *Scroll down for instructions*
 
-------------
+
 
 
 ## Main features:
@@ -16,7 +16,7 @@ A custom, responsive dark style for NetAcad Contenthub pages to avoid eyestrain.
 * Titlebar scrolls away with text (for more vertical space)
 * Title and sidebar darkened when not in use
 
-------------
+
 
 ## Screenshots:
 [![Comparison](https://raw.githubusercontent.com/LostViking09/NetacadDarkmode/main/comparison.png "Comparison")](https://raw.githubusercontent.com/LostViking09/NetacadDarkmode/main/comparison.png "Comparison")
@@ -28,14 +28,17 @@ A custom, responsive dark style for NetAcad Contenthub pages to avoid eyestrain.
 [![Darker Images](https://raw.githubusercontent.com/LostViking09/NetacadDarkmode/main/darker_images.png "Darker Images")](https://raw.githubusercontent.com/LostViking09/NetacadDarkmode/main/darker_images.png "Darker Images")
 *Images darkened (mouse hover shows original)*
 
-------------
+
+
 ## Installation:
 1. Install [Stylus plugin](https://github.com/openstyles/stylus "Stylus plugin") for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne "Chrome") or [Firefox](https://addons.mozilla.org/hu/firefox/addon/styl-us/ "Firefox")
 2. Install **NetacadDarkmode**: [![Install](https://img.shields.io/badge/Install%20using-Stylus-informational?style=flat&logo=DocuSign&logoColor=white "Install")](https://github.com/LostViking09/NetacadDarkmode/raw/main/netacadDark.user.styl "Install")
 
 3. *???*
 4. Profit
-------------
+
+
+
 ## Customization:
 You can edit the font size in the Stylus menu.
 
