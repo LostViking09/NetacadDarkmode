@@ -8,7 +8,7 @@ A custom, responsive dark style for NetAcad Contenthub pages to avoid eyestrain.
 ------------
 
 
-##Main features:
+## Main features:
 
 * Dark background with light text
 * Images and other media 50% darker (hover with mouse to show original)
