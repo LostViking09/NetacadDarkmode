@@ -30,12 +30,35 @@
     }
     
     .cui .radio input.checked ~ .radio__label, .cui .radio input:checked ~ .radio__label {
-        color: #0aa896;
+        color: #0aa896 !important;
         /*color: #0aa890;*/
         text-decoration: underline dotted;
     }
     
     .cui button, .cui input, .cui select, .cui textarea {
+        color: white;
+    }
+    .cui .checkbox, .cui .radio {
+        margin-top: 10px;
+    }
+    
+    .cui .checkbox .checkbox__label, .cui .radio .radio__label {
+        color: #c9c9c9!important;
+    }
+    
+    .cui .checkbox input.checked ~ .checkbox__label, .cui .checkbox input:checked ~ .checkbox__label{
+        color: #0aa896 !important;
+        /*color: #0aa890;*/
+        text-decoration: underline dotted;
+    }
+    
+    
+    .cyu-quiz-container .question-container{
+        padding-bottom: 20px;
+        border-bottom: 1px white solid;
+    }
+    
+    .cyu-quiz-container .question-container .cyu-question p {
         color: white;
     }
     
