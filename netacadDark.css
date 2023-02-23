@@ -1,0 +1,153 @@
+/* ==UserStyle==
+@name           Netacad dark mode
+@namespace      github.com/LostViking09/NetacadDarkmode
+@version        1.1.0
+@description    A custom, responsive dark style for NetAcad Contenthub pages to avoid eyestrain.
+@author         LostViking09
+@advanced  text     a_fontsize       "Content Font Size (in px)"  "17"
+==/UserStyle== */
+@-moz-document domain("contenthub.netacad.com") {
+    /* Írj kódot ide… */
+    .block-container h1 {
+        background: linear-gradient(90deg, #00bceb6b 0, #6001adab);
+    }
+
+    .chunk-container.chunk > .container h2 {
+        color: #0aa890;
+    }
+    
+    /* -- Radio buttons & tests -- */
+    .cyu-quiz-container .question-container .question.question-incorrect {
+        background: linear-gradient(90deg, #eb33002b 0, #ad0101ab);
+        border:none;
+        color: white;
+    }
+    
+    .cyu-quiz-container .question-container .question.question-correct {
+        background: linear-gradient(90deg, #7deb002b 0, #04ad01ab);
+        border:none;
+        color: white;
+    }
+    
+    .cui .radio input.checked ~ .radio__label, .cui .radio input:checked ~ .radio__label {
+        color: #0aa896;
+        /*color: #0aa890;*/
+        text-decoration: underline dotted;
+    }
+    
+    .cui button, .cui input, .cui select, .cui textarea {
+        color: white;
+    }
+    
+    /*-------------------------------*/
+
+    .chunk-container.chunk {
+        border-bottom: 3px solid #c6c7ca;
+    }
+
+    .animate .animate-component .animate-component-canvas{
+        border: none;
+        background-color: grey;
+        filter: brightness(50%);
+        transition: 200ms;
+    }
+    
+    .animate .animate-component .animate-component-canvas:hover{
+        filter: brightness(100%);
+        transition: 200ms;
+        background-color: #acacac!important;
+    }    
+    
+    .cui .card,
+    .cui a.card {
+        border: none;
+        background-color: grey;
+        filter: brightness(50%);
+        transition: 200ms;
+    }
+
+    .cui .card:hover,
+    .cui a.card:hover {
+        filter: brightness(100%);
+        transition: 200ms;
+        background-color: #acacac!important;
+    }
+
+    .chunk-container.chunk .current-li {
+        background-color: #737373;
+        border: none;
+    }
+
+    .cui .toast,
+    .Toastify__toast--default {
+        background-color: #141414;
+        color: lightgrey;
+    }
+
+    .Toastify__toast--default {
+        border: 1px solid lightgray;
+    }
+
+    .cui .main-content-wrapper .layout-wrapper,
+    .footer-navigation {
+        color: lightgrey;
+        background-color: #141414;
+        border: none;
+    }
+
+    .cui .alert,
+    .cui .alert.alert--info,
+    .cui .radio .radio__label {
+        color: lightgrey;
+    }
+
+
+    #root {
+        background-color: black!important;
+        border: none;
+    }
+
+    .mediaExpandedView {
+        filter: none!important;
+        background-color: #000000d1;
+    }
+
+    th,
+    td {
+        background-color: rgb(10, 10, 10)!important;
+    }
+
+    .cui .header-heading .page-title {
+        color: white;
+    }
+
+    /* Larger text */
+    body {
+        font-size: /*[[a_fontsize]]*/px !important;
+    }
+    .cui .app-header {
+        position: relative !important;
+        background-color: #091c37;
+        border: none;
+    }
+
+    #side-nav,
+    .app-header {
+        border: none;
+        filter: opacity(20%);
+    }
+
+    #side-nav:hover,
+    .app-header:hover {
+        filter: opacity(75%);
+    }
+
+    .nav-toggle {
+        color: white!important;
+    }
+
+    .btn {
+        color: darkgrey!important;
+        background-color: black!important;
+    }
+}
