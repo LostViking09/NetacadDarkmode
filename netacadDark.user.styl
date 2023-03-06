@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Netacad dark mode
 @namespace      github.com/LostViking09/NetacadDarkmode
-@version        1.1.2
+@version        1.1.3
 @description    A custom, responsive dark style for NetAcad Contenthub pages to avoid eyestrain.
 @author         LostViking09
 @advanced  text     a_fontsize       "Content Font Size (in px)"  "17"
@@ -102,7 +102,8 @@
     }
     
     .cui .card,
-    .cui a.card {
+    .cui a.card,
+    .wrapper {
         border: none;
         background-color: grey;
         filter: brightness(50%);
@@ -110,7 +111,8 @@
     }
 
     .cui .card:hover,
-    .cui a.card:hover {
+    .cui a.card:hover,
+    .wrapper:hover {
         filter: brightness(100%);
         transition: 200ms;
         background-color: #acacac!important;
