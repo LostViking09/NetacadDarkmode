@@ -46,7 +46,8 @@
     .cui .card,
     .custom-select,
     html body.cui header.global-header .navbar-nav .dropdown-menu,
-    html body.cui header.global-header .header-toolbar .login-div .dropdown-content { background: var(--col-bg-grey); }
+    html body.cui header.global-header .header-toolbar .login-div .dropdown-content,
+    header.header--regular .dropdown-menu { background: var(--col-bg-grey); }
     
     .resources-item .resources-list a:hover { background: var(--col-bg-mid); }
     
@@ -66,12 +67,14 @@
     .featured-news-list a.featured-news-item .news-title { color: var(--col-text-link); }
     
     .cui .activity, .generaltable,
-    html body.cui header.global-header .header-toolbar .login-div .login-dropdown { color: var(--col-text-secondary); }
+    html body.cui header.global-header .header-toolbar .login-div .login-dropdown,
+    header.header--regular .header-panel .login-div .dropdown-toggle::after { color: var(--col-text-secondary); }
     
     body.cui,
     .cui .generaltable tbody tr:hover,
     header.header--regular .navbar-nav > li > a,
-    header.header--regular a { color: var(--col-text-primary) !important; }
+    header.header--regular a,
+    header.header--regular .dropdown-toggle::after { color: var(--col-text-primary) !important; }
     
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { color: var(--col-text-sat); }
     
